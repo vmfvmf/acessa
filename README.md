@@ -1,4 +1,0 @@
-acessa
-======
-
-Sistema acessa escola
