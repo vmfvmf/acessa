@@ -2,7 +2,7 @@
     class Escolacontato extends AppModel{
         
         public  $name = "Escolacontato";
-        public $belongsTo = array("Universitario","Escola");
+        public $belongsTo = array("Escola");
     }
 /*
  * To change this license header, choose License Headers in Project Properties.

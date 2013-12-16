@@ -7,7 +7,7 @@
             $this->set(compact('nome'));
             $this->set(compact('escola_id'));
             if ($this->data){
-                if($this->Universitariocontato->save($this->data)){
+                if($this->Escolacontato->save($this->data)){
                     $this->Session->setFlash("Contato adicionado com sucesso!");
                 }
                 $this->redirect(array('controller' => 'Escolas', 'action' => 'index'));
@@ -31,7 +31,7 @@
                 if($this->Escolacontato->delete($id)){
                     $this->Session->setFlash("Contato excluido com sucesso!");
                 }
-                $this->redirect(array('controller' => 'Universitarios', 'action' => 'index'));
+                $this->redirect(array('controller' => 'Escolas', 'action' => 'index'));
             }
         }
         

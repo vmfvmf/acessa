@@ -9,7 +9,8 @@
                         $this->set(compact('escolares'));
         }
         
-        public function add(){
+        public function add($escola_id = null){
+            $this->set(compact("escola_id"));
             if ($this->data){
                 if($this->Escolare->save($this->data)){
                     $this->Session->setFlash("Estagiario escolar adicionada com sucesso");

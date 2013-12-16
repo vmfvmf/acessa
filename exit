@@ -1,0 +1,46 @@
+diff --git a/app/Model/Escola.php b/app/Model/Escola.php
+index 95c384c..9ab9c97 100644
+--- a/app/Model/Escola.php
++++ b/app/Model/Escola.php
+@@ -2,7 +2,7 @@
+     class Escola extends AppModel{
+         
+         public  $name = "Escola";
+-        public $hasMany = array("Escolares");
++        public $hasMany = array("Escolares","Escolacontato");
+         public $belongsTo = array("Universitario","Cidade");
+     }
+ /*
+diff --git a/app/Model/Escolacontato.php b/app/Model/Escolacontato.php
+index c348bc2..cc079e0 100644
+--- a/app/Model/Escolacontato.php
++++ b/app/Model/Escolacontato.php
+@@ -1,8 +1,8 @@
+ <?php
+-    class Universitariocontato extends AppModel{
++    class Escolacontato extends AppModel{
+         
+-        public  $name = "Universitariocontato";
+-        public $belongsTo = array("Universitario");
++        public  $name = "Escolacontato";
++        public $belongsTo = array("Universitario","Escola");
+     }
+ /*
+  * To change this license header, choose License Headers in Project Properties.
+diff --git a/sql b/sql
+index 03be99c..139b24d 100644
+--- a/sql
++++ b/sql
+@@ -22,4 +22,9 @@ create table cidades(id serial primary key, nome varchar(80))
+ create table universitariocontatos(id serial, tipo char, 
+ 	contato varchar(30), descricao varchar(80),universitario_id int,
+ 	foreign key(universitario_id) references universitarios,
+-	primary key(universitario_id, id))
+\ No newline at end of file
++	primary key(universitario_id, id))
++
++create table escolacontatos(id serial, tipo char, 
++	contato varchar(30), descricao varchar(80),escola_id int,
++	foreign key(escola_id) references escolas,
++	primary key(escola_id, id))
+\ No newline at end of file

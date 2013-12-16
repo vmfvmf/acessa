@@ -12,6 +12,6 @@ $this->start('sidebar');
                        $this->Form->input('nome'),
                        $this->Form->input('horario_entrada'),
                        $this->Form->input('turno', array('type'=>'select','options'=>$turnos)),
-                       $this->Form->input('escola_id',array('options'=>$escola)),
+                       $this->Form->input('escola_id',array('options'=>$escola, 'selected' => $escola_id)),
                        $this->Form->end('cadastrar');
 ?>
