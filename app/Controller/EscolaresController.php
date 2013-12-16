@@ -13,7 +13,7 @@
             $this->set(compact("escola_id"));
             if ($this->data){
                 if($this->Escolare->save($this->data)){
-                    $this->Session->setFlash("Estagiario escolar adicionada com sucesso");
+                    $this->Session->setFlash("Estagiário escolar adicionada com sucesso");
                     $this->data = array();
                 }
             }
@@ -23,7 +23,7 @@
         public function edit($id = null){
             if($this->data){
                 if ($this->Escolare->save($this->data)) {
-                    $this->Session->setFlash("Alteracoes armazenadas com sucesso!");
+                    $this->Session->setFlash("Alterações armazenadas com sucesso!");
                 }
                 $this->redirect(array('controller' => 'Escolares', 'action' => 'index'));
             }else{
