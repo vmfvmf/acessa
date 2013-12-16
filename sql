@@ -23,3 +23,8 @@ create table universitariocontatos(id serial, tipo char,
 	contato varchar(30), descricao varchar(80),universitario_id int,
 	foreign key(universitario_id) references universitarios,
 	primary key(universitario_id, id))
+
+create table escolacontatos(id serial, tipo char, 
+	contato varchar(30), descricao varchar(80),escola_id int,
+	foreign key(escola_id) references escolas,
+	primary key(escola_id, id))
