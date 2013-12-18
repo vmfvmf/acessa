@@ -1,9 +1,8 @@
 <?php
-    class Escola extends AppModel{
+    class Registrodiario extends AppModel{
         
-        public  $name = "Escola";
-        public $hasMany = array("Escolares","Escolacontato");
-        public $belongsTo = array("Universitario","Cidade");
+        public  $name = "Registrodiario";
+        public $belongsTo = array("Escola");
     }
 /*
  * To change this license header, choose License Headers in Project Properties.

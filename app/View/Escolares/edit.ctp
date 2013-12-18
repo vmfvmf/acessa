@@ -12,6 +12,7 @@ $this->start('sidebar');
         echo     $this->Form->create('Escolare',array( 'action' => 'edit')),
                        $this->Form->input('id',array('type'=>'hidden')),
                        $this->Form->input('nome'),
+                       $this->Form->input('cpf'),
                        $this->Form->input('turno', array('type'=>'select','options'=>$turnos)),
                        $this->Form->input('horario_entrada'),
                        $this->Form->input('escola_id',array('options'=>$escola)),

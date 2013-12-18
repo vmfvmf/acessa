@@ -22,9 +22,9 @@
         public function edit($id = null){
             if($this->data){
                 if ($this->Universitario->save($this->data)) {
-                    $this->Session->setFlash("Alteracoes armazenadas com sucesso!");
+                    $this->Session->setFlash("Alteracçõs armazenadas com sucesso!");
                 }
-                $this->redirect(array('controller' => 'Universitarios', 'action' => 'index'));
+                $this->redirect(array('controller' => 'Universitarios', 'action' => 'view',$id));
             }else{
                 $this->data = $this->Universitario->read(null, $id);
             }
@@ -59,8 +59,6 @@
             $contatos = $this->Universitario->Universitariocontato->find('list',array('fields' => array( 'id', 'tipo','contato','descricao')));
             $this->set(compact('contatos'));
         }
-
-
     }
 /*
  * To change this license header, choose License Headers in Project Properties.

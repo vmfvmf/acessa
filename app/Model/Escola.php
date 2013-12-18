@@ -2,7 +2,7 @@
     class Escola extends AppModel{
         
         public  $name = "Escola";
-        public $hasMany = array("Escolares","Escolacontato");
+        public $hasMany = array("Escolares","Escolacontato","Registrodiario");
         public $belongsTo = array("Universitario","Cidade");
     }
 /*

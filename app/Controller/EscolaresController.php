@@ -25,7 +25,7 @@
                 if ($this->Escolare->save($this->data)) {
                     $this->Session->setFlash("Alterações armazenadas com sucesso!");
                 }
-                $this->redirect(array('controller' => 'Escolares', 'action' => 'index'));
+                $this->redirect(array('controller' => 'Escolares', 'action' => 'view',$id));
             }else{
                 $this->data = $this->Escolare->read(null, $id);
             }

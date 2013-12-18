@@ -12,8 +12,8 @@ $this->start('sidebar');
 <h1>Detalhes estagiario escolar</h1>
 
 <h2><?=$escolar['Escolare']['nome']?></h2>
-
-<b>Horário de entrada</b> <?=$escolar['Escolare']['horario_entrada'];?>
+<br/><b>CPF</b> <?=$escolar['Escolare']['cpf'];?>
+<br/><b>Horário de entrada</b> <?=$escolar['Escolare']['horario_entrada'];?>
 
 <br/>
 <br/>

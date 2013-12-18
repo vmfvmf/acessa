@@ -3,6 +3,7 @@
         
         public  $name = "Escolare";
         public $belongsTo = array('Escola');    
+        public $sequence = 'public.pessoas_id_seq';
         
     }
 /*

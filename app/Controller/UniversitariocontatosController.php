@@ -4,13 +4,14 @@
         public  $name = "Universitariocontatos";
                 
         public function add($universitario_id =null, $nome = null){
+            $this->Universitariocontato->universitario_id = $universitario_id;
             $this->set(compact('nome'));
             $this->set(compact('universitario_id'));
             if ($this->data){
                 if($this->Universitariocontato->save($this->data)){
                     $this->Session->setFlash("Contato adicionado com sucesso!");
                 }
-                $this->redirect(array('controller' => 'Universitarios', 'action' => 'index'));
+                $this->redirect(array('controller' => 'Universitarios', 'action' => 'view',$this->Universitariocontato->universitario_id));
             }
         }
         
@@ -20,7 +21,7 @@
                 if ($this->Universitariocontato->save($this->data)) {
                     $this->Session->setFlash("Alterações armazenadas com sucesso!");
                 }
-                $this->redirect(array('controller' => 'Universitarios', 'action' => 'index'));
+                $this->redirect(array('controller' => 'Universitarios', 'action' => 'view',$this->Universitariocontato->universitario_id));
             }else{
                 $this->data = $this->Universitariocontato->read(null, $id);
             }

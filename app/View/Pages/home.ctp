@@ -5,3 +5,5 @@
 <?=$this->Html->link('Estagiários Escolas',array('controller' => 'Escolares', 'action' => 'index')); ?>
 <br/>
 <?=$this->Html->link('Estagiários Universitários',array('controller' => 'Universitarios', 'action' => 'index')); ?>
+<br/>
+<?=$this->Html->link('Registro Diário',array('controller' => 'Registrodiarios', 'action' => 'index')); ?>

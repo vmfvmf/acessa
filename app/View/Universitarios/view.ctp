@@ -13,8 +13,9 @@ $this->start('sidebar');
 <h1>Detalhes Estagiário Universitário</h1>
 
 <h2><?=$universitario['Universitario']['nome']?></h2>
+<br/><b>CPF </b><?=$universitario['Universitario']['cpf'];?>
 
-<b>Horário de entrada</b> <?=$universitario['Universitario']['horario_entrada'];?>
+<br/><b>Horário de entrada</b> <?=$universitario['Universitario']['horario_entrada'];?>
 
 <br/>
 <br/>

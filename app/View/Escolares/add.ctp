@@ -10,6 +10,7 @@ $this->start('sidebar');
         $turnos = array('M' => 'M', 'T' => 'T', 'N' => 'N');
         echo    $this->Form->create('Escolare',array( 'action' => 'add')),
                        $this->Form->input('nome'),
+                       $this->Form->input('cpf'),
                        $this->Form->input('horario_entrada'),
                        $this->Form->input('turno', array('type'=>'select','options'=>$turnos)),
                        $this->Form->input('escola_id',array('options'=>$escola, 'selected' => $escola_id)),

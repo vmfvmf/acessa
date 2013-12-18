@@ -11,6 +11,7 @@ $this->start('sidebar');
         echo     $this->Form->create('Universitario',array( 'action' => 'edit')),
                        $this->Form->input('id',array('type'=>'hidden')),
                        $this->Form->input('nome'),
+                       $this->Form->input('cpf'),
                        $this->Form->input('horario_entrada'),
                        $this->Form->end('salvar');
 ?>

@@ -1,8 +1,9 @@
 <?php
     class Universitario extends AppModel{
         
-        public  $name = "Universitario";
+        public $name = "Universitario";
         public $hasMany = array("Escola","Universitariocontato");
+        public $sequence = 'public.pessoas_id_seq';
         //public $belongsTo = array("Pessoacontato");
     }
 /*

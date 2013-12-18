@@ -9,6 +9,7 @@ $this->start('sidebar');
 <?php  
         echo    $this->Form->create('Universitario',array( 'action' => 'add')),
                        $this->Form->input('nome'),
+                       $this->Form->input('cpf'),
                        $this->Form->input('horario_entrada'),
                        $this->Form->end('cadastrar');
 ?>

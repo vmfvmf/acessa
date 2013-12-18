@@ -1,8 +1,8 @@
-<h1>Nova escola</h1>
+<h1>Novo registro diário</h1>
 
 <?php  
-        echo    $this->Form->create('Escola',array( 'action' => 'add')),
-                       $this->Form->input('nome'),
-                       $this->Form->input('cie'),
+        echo    $this->Form->create('Registrodiario',array( 'action' => 'add')),
+                       $this->Form->input('escola_id',array('type' => 'select','options' => $escolas)), 
+                       $this->Form->input('detalhes'),
                        $this->Form->end('cadastrar');
 ?>

@@ -41,6 +41,7 @@
                                                                             <li><?=$this->Html->link('Escolas',array('controller' => 'Escolas', 'action' => 'index')); ?></li>
                                                                             <li><?=$this->Html->link('Estagiários Universitários',array('controller' => 'Universitarios', 'action' => 'index')); ?></li>
                                                                             <li><?=$this->Html->link('Estagiários Escolares',array('controller' => 'Escolares', 'action' => 'index')); ?></li>
+                                                                            <li><?=$this->Html->link('Registro Diário',array('controller' => 'Registrodiarios', 'action' => 'index')); ?></li>
                                                                         </ul>
 		</div>
 		<div id="content">
