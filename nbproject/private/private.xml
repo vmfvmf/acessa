@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/opt/lampp/htdocs/cake/app/View/Escolares/index.ctp</file>
+            <file>file:/opt/lampp/htdocs/cake/app/View/Registrodiarios/index.ctp</file>
+            <file>file:/opt/lampp/htdocs/cake/app/View/Registrodiarios/historico.ctp</file>
             <file>file:/opt/lampp/htdocs/cake/app/Model/Escolare.php</file>
-            <file>file:/opt/lampp/htdocs/cake/app/View/Escolares/add.ctp</file>
-            <file>file:/opt/lampp/htdocs/cake/app/View/Escolares/edit.ctp</file>
+            <file>file:/opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php</file>
         </group>
     </open-files>
 </project-private>

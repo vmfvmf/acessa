@@ -4,9 +4,8 @@ $this->extend('/Common/view');
 $this->start('sidebar');
 ?>
 <li><?=$this->Html->link('Novo Registro Diário',array('controller' => 'Registrodiarios', 'action' => 'add')); ?></li>
-<li><?=$this->Html->link('Histórico dos registros',array('controller' => 'Registrodiarios', 'action' => 'historico')); ?></li>
 <?php $this->end(); ?>
-<h1>Registros Diários<h1>
+<h1>Histórico de Registros Diários<h1>
 
 
 <table>
@@ -34,3 +33,25 @@ $this->start('sidebar');
 <?=$this->Paginator->prev('Ant | '),$this->Paginator->next('Prox       | '),$this->Paginator->numbers();?>
 <br/>
 <br/>
+<h3>Busca</h3>
+<h4>/escola<h4>
+        <?
+    $base_url = array('controller' => 'Registrodiarios', 'action' => 'historico');
+    echo $this->Form->create("Filter",array('url' => $base_url, 'class' => 'filter'));
+    // add a select input for each filter. It's a good idea to add a empty value and set
+    // the default option to that.
+    echo $this->Form->input("escola_id", array('label' => 'Escola', 'options' => $escolas, 'empty' => '-- Todas as escolas --', 'default' => ''));
+    echo $this->Form->input("detalhes");
+    echo $this->Form->input("criado");//, array( 'type' => 'date',// 'dateFormat' => 'DMY', 
+                        //'minYear' => 2012, 'maxYear' => 2015, 'empty' => '-- Todas as datas --'));
+              //  $this->Form->year('criado', date('Y') - 100, date('Y') - 13, array('empty' => "ANO")),
+               // $this->Form->month('criado', array('empty' => "MES")),
+               // $this->Form->day('criado', array('empty' => 'DIA')),
+    // Add a basic search
+    //echo $this->Form->input("search", array('label' => 'Search', 'placeholder' => "Search..."));
+     echo$this->Form->submit("Buscar");
+    // To reset all the filters we only need to redirect to the base_url
+    //echo $this->Html->link("Reset",$base_url);
+    echo $this->Form->end();
+?>
+        

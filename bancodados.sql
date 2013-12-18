@@ -34,3 +34,5 @@ create table registrodiarios(id serial, escola_id int, created timestamp, modifi
 	detalhes text,
 	foreign key(escola_id) references escolas,
 	primary key(escola_id, id))
+
+select * from registrodiarios where created ::date = '2013-12-18'
