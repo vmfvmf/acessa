@@ -4,10 +4,10 @@ $this->extend('/Common/view');
 $this->start('sidebar');
 ?>
     <ul>
-        <li><?=$this->Html->link('Nova Escola',array('controller' => 'Escolas', 'action' => 'add')); ?></li>
-        <li><?=$this->Html->link('Novo Contato',array('controller' => 'Escolacontatos', 'action' => 'add',$escola['Escola']['id'],$escola['Escola']['nome'])); ?></li>
-        <li><?=$this->Html->link('Novo Estagiário Escolar',array('controller' => 'Escolares', 'action' => 'add',$escola['Escola']['id'])); ?></li>
         <li><?=$this->Html->link('Editar Escola',array('controller' => 'Escolas', 'action' => 'edit',$escola['Escola']['id'])); ?></li>
+        <li><?=$this->Html->link('Novo Contato',array('controller' => 'Escolacontatos', 'action' => 'add',$escola['Escola']['id'],$escola['Escola']['nome'])); ?></li>
+        <li><?=$this->Html->link('Novo Diretor',array('controller' => 'Diretores', 'action' => 'add',$escola['Escola']['id'],$escola['Escola']['nome'])); ?></li>
+        <li><?=$this->Html->link('Novo Estagiário Escolar',array('controller' => 'Escolares', 'action' => 'add',$escola['Escola']['id'])); ?></li>
     </ul>
 <?php $this->end(); ?>
 <h1>Detalhes Escola</h1>
@@ -20,6 +20,12 @@ $this->start('sidebar');
 <br/><b>Bairro </b> <?=$escola['Escola']['bairro'];?>
 <br/><b>CEP </b> <?=$escola['Escola']['cep'];?>
 
+<br/>
+<br/>
+
+<h3>Diretor</h3>
+<?=$this->Html->link($escola['Diretore']['nome'],
+            array('controller' => 'Diretores', 'action' => 'view',$escola['Diretore']['id']));?>
 <br/>
 <br/>
 

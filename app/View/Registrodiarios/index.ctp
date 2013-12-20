@@ -12,7 +12,7 @@ $this->start('sidebar');
 <table>
      <tr>
              <td><b><?=$this->Paginator->sort('created','CRIADO');?></b></td> 
-             <td><b><?=$this->Paginator->sort('escola_id','ESCOLA');?></b></td> 
+             <td><b><?=$this->Paginator->sort('Escola.nome','ESCOLA');?></b></td> 
              <td><b>DETALHES</b></td> 
              <td><b>AÇÕES</b></td> 
      </tr>

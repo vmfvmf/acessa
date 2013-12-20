@@ -4,7 +4,8 @@
         public  $name = "Escola";
         public $actsAs = array('Containable');
         public $hasMany = array("Escolares","Escolacontato","Registrodiario");
-        public $belongsTo = array("Universitario","Cidade","Diretore");
+        public $hasOne = array("Diretore");
+        public $belongsTo = array("Universitario","Cidade");
     }
 /*
  * To change this license header, choose License Headers in Project Properties.

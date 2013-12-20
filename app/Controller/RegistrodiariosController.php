@@ -4,10 +4,9 @@
         public  $name = "Registrodiarios";
                       
         public function index() {
-                        $this->paginate = array('limit' => 10, "conditions" => array("created >=" => "now()"));
+                        $this->paginate = array('limit' => 10, "conditions" => array("created >=" => "now()"), "contain" => false);
                         $registros = $this->paginate('Registrodiario');
                         $this->set(compact('registros'));
-                        
         }
         
         public function add(){
@@ -89,7 +88,7 @@
 
         // get the possible values for the filters and
         // pass them to the view
-        $escolas = $this->Registrodiario->Escola->find('list');
+        $escolas = $this->Registrodiario->Escola->find('list',array('id','nome'));
         $this->set(compact('escolas'));
 
         // Pass the search parameter to highlight the text

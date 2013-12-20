@@ -4873,3 +4873,1486 @@ Stack Trace:
 #12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
 #13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #14 {main}
+2013-12-20 15:45:58 Error: [MissingTableException] Table universitariocontatos for model Universitariocontato was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'universitariocontatos',
+  'class' => 'Universitariocontato',
+  'ds' => 'default',
+)
+Request URL: /cake/Universitarios/view/4
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(3493): Model->setSource('universitarioco...')
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1062): Model->getDataSource()
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitario), Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('first', Array)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1592): Model->find('first', Array)
+#5 /opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php(45): Model->read(NULL, '4')
+#6 [internal function]: UniversitariosController->view('4')
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariosController), Array)
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariosController), Object(CakeRequest), Object(CakeResponse))
+#10 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-20 15:49:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php, line 59]
+2013-12-20 15:49:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/Universitarios/view/4
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 59, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 59, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 15:51:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php, line 59]
+2013-12-20 15:51:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/Universitarios/view/4
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 59, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 59, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 15:51:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php, line 59]
+2013-12-20 15:51:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/Universitarios/view/4
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 59, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 59, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 15:54:09 Error: [MissingControllerException] Controller class UniversitariocontatosController could not be found.
+Exception Attributes: array (
+  'class' => 'UniversitariocontatosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Universitariocontatos/add/4/Adriana
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 15:54:37 Error: [MissingControllerException] Controller class UniversitariocontatosController could not be found.
+Exception Attributes: array (
+  'class' => 'UniversitariocontatosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Universitariocontatos/add/4/Adriana
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 15:56:45 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, E, vmfvmf@hotmail.com, , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 15:58:09 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:02:36 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:04:35 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "pessoa_id" violates not-null constraint
+DETAIL:  Failing row contains (1, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:10:42 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:11:12 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:17:14 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "pessoa_id" violates not-null constraint
+DETAIL:  Failing row contains (39, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:17:53 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "pessoa_id" violates not-null constraint
+DETAIL:  Failing row contains (40, C, , , null).
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:18:02 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:23:02 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:30:29 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:30:52 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:31:20 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column Pessoacontato.universitario_id does not exist
+LINE 1: ...ntato"."pessoa_id" AS "Pessoacontato__pessoa_id", "Pessoacon...
+                                                             ^
+Request URL: /cake/Universitarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Pessoac...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Pessoac...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT "Pessoac...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Universitario), 'SELECT "Pessoac...', Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Universitario), Object(Pessoacontato), 'hasMany', 'Pessoacontato', Array, Array, true, Array, 0, Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitario), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#8 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#9 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Universitario', Array, Array)
+#10 /opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php(8): Controller->paginate('Universitario')
+#11 [internal function]: UniversitariosController->index()
+#12 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariosController), Array)
+#13 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariosController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-20 16:32:44 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column Pessoacontato.pessoa_id does not exist
+LINE 1: ...", "Pessoacontato"."cpf" AS "Pessoacontato__cpf", "Pessoacon...
+                                                             ^
+Request URL: /cake/Universitarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Pessoac...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Pessoac...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT "Pessoac...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Universitario), 'SELECT "Pessoac...', Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Universitario), Object(Pessoa), 'hasMany', 'Pessoacontato', Array, Array, true, Array, 0, Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitario), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#8 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#9 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Universitario', Array, Array)
+#10 /opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php(8): Controller->paginate('Universitario')
+#11 [internal function]: UniversitariosController->index()
+#12 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariosController), Array)
+#13 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariosController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-20 16:33:24 Error: Fatal Error (64): Cannot redeclare class Pessoan in [/opt/lampp/htdocs/cake/app/Model/Pessoa.php, line 6]
+2013-12-20 16:33:24 Error: [FatalErrorException] Cannot redeclare class Pessoan
+Request URL: /cake/Universitarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 6, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 6, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 16:33:55 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column Pessoacontato.pessoa_id does not exist
+LINE 1: ...", "Pessoacontato"."cpf" AS "Pessoacontato__cpf", "Pessoacon...
+                                                             ^
+Request URL: /cake/Universitarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Pessoac...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Pessoac...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT "Pessoac...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Universitario), 'SELECT "Pessoac...', Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Universitario), Object(Pessoa), 'hasMany', 'Pessoacontato', Array, Array, true, Array, 0, Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitario), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#8 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#9 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Universitario', Array, Array)
+#10 /opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php(8): Controller->paginate('Universitario')
+#11 [internal function]: UniversitariosController->index()
+#12 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariosController), Array)
+#13 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariosController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-20 16:35:06 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:37:41 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:45:00 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column Pessoacontato.pessoa_id does not exist
+LINE 1: ...", "Pessoacontato"."cpf" AS "Pessoacontato__cpf", "Pessoacon...
+                                                             ^
+Request URL: /cake/Universitarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Pessoac...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Pessoac...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT "Pessoac...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Universitario), 'SELECT "Pessoac...', Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Universitario), Object(Pessoa), 'hasMany', 'Pessoacontato', Array, Array, true, Array, 0, Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitario), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#8 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#9 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Universitario', Array, Array)
+#10 /opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php(8): Controller->paginate('Universitario')
+#11 [internal function]: UniversitariosController->index()
+#12 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariosController), Array)
+#13 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariosController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-20 16:45:56 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:46:54 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:47:45 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:47:57 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:48:52 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column Pessoacontato.universitario_id does not exist
+LINE 1: ...ntato"."pessoa_id" AS "Pessoacontato__pessoa_id", "Pessoacon...
+                                                             ^
+Request URL: /cake/Universitarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Pessoac...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Pessoac...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1338): DboSource->fetchAll('SELECT "Pessoac...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1200): DboSource->fetchAssociated(Object(Universitario), 'SELECT "Pessoac...', Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1111): DboSource->queryAssociation(Object(Universitario), Object(Pessoacontato), 'hasMany', 'Pessoacontato', Array, Array, true, Array, 0, Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitario), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#8 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#9 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Universitario', Array, Array)
+#10 /opt/lampp/htdocs/cake/app/Controller/UniversitariosController.php(8): Controller->paginate('Universitario')
+#11 [internal function]: UniversitariosController->index()
+#12 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariosController), Array)
+#13 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariosController), Object(CakeRequest), Object(CakeResponse))
+#15 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-20 16:49:09 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 16:53:33 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "pessoas".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 17:04:22 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "pessoacontatos" violates foreign key constraint "pessoacontatos_pessoa_id_fkey1"
+DETAIL:  Key (pessoa_id)=(2) is not present in table "diretores".
+Request URL: /cake/pessoacontatos/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Pessoacontato), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/PessoacontatosController.php(11): Model->save(Array)
+#5 [internal function]: PessoacontatosController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PessoacontatosController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PessoacontatosController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 17:10:02 Error: [MissingControllerException] Controller class UniversitariocontatosController could not be found.
+Exception Attributes: array (
+  'class' => 'UniversitariocontatosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Universitariocontatos/delete/61
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 17:10:37 Error: Fatal Error (64): Cannot redeclare class Pessoacontato in [/opt/lampp/htdocs/cake/app/Model/Universitariocontato.php, line 8]
+2013-12-20 17:10:37 Error: [FatalErrorException] Cannot redeclare class Pessoacontato
+Request URL: /cake/Universitariocontatos/edit/61/Vinicius%20Martins%20Ferraz
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 8, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 8, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 17:10:44 Error: [MissingControllerException] Controller class PessoacontatosController could not be found.
+Exception Attributes: array (
+  'class' => 'PessoacontatosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Pessoacontatos/add/2/Vinicius%20Martins%20Ferraz
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 17:12:21 Error: [MissingViewException] View file "/opt/lampp/htdocs/cake/app/View/Universitariocontatos/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/cake/app/View/Universitariocontatos/add.ctp',
+)
+Request URL: /cake/Universitariocontatos/add/2/Vinicius%20Martins%20Ferraz
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariocontatosController), Object(CakeRequest), Object(CakeResponse))
+#4 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-20 17:13:25 Error: [MissingViewException] View file "/opt/lampp/htdocs/cake/app/View/Universitariocontatos/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/cake/app/View/Universitariocontatos/add.ctp',
+)
+Request URL: /cake/Universitariocontatos/add/2/Vinicius%20Martins%20Ferraz
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariocontatosController), Object(CakeRequest), Object(CakeResponse))
+#4 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-20 17:21:55 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column Universitariocontato.diretore_id does not exist
+LINE 1: ... LEFT JOIN "public"."diretores" AS "Diretore" ON ("Universit...
+                                                             ^
+Request URL: /cake/Universitariocontatos/edit/67/Vinicius%20Martins%20Ferraz
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Univers...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Univers...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Univers...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Universitariocontato), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1592): Model->find('first', Array)
+#7 /opt/lampp/htdocs/cake/app/Controller/UniversitariocontatosController.php(26): Model->read(NULL, '67')
+#8 [internal function]: UniversitariocontatosController->edit('67', 'Vinicius Martin...')
+#9 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UniversitariocontatosController), Array)
+#10 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UniversitariocontatosController), Object(CakeRequest), Object(CakeResponse))
+#12 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-12-20 17:34:54 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:49:23 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:53:59 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:54:03 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:54:03 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:54:04 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:54:04 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:54:05 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:55:40 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:55:40 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:55:42 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:56:24 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column "contain" does not exist
+LINE 1: ..."Registrodiario"   WHERE "created" >= 'now()' AND "contain" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:56:46 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column "contain" does not exist
+LINE 1: ..."Registrodiario"   WHERE "created" >= 'now()' AND "contain" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:56:46 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column "contain" does not exist
+LINE 1: ..."Registrodiario"   WHERE "created" >= 'now()' AND "contain" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:57:26 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 17:58:34 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php, line 91]
+2013-12-20 17:58:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/Registrodiarios/historico
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 91, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 91, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 18:00:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php, line 91]
+2013-12-20 18:00:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/Registrodiarios/historico
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 91, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 91, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 18:00:36 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php, line 123]
+2013-12-20 18:00:36 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cake/Registrodiarios/historico
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 123)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 123, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 123, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 18:01:52 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 18:10:43 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 18:19:34 Error: [MissingControllerException] Controller class DiretoreController could not be found.
+Exception Attributes: array (
+  'class' => 'DiretoreController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Diretore/view/47
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 18:22:39 Error: [MissingControllerException] Controller class DiretoreController could not be found.
+Exception Attributes: array (
+  'class' => 'DiretoreController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Diretore/view/47
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 18:39:35 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 18:44:50 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 18:44:51 Error: [PDOException] SQLSTATE[42702]: Ambiguous column: 7 ERROR:  column reference "created" is ambiguous
+LINE 1: ...gistrodiario"."escola_id" = "Escola"."id")  WHERE "created" ...
+                                                             ^
+Request URL: /cake/Registrodiarios
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT "Registr...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT "Registr...', Array, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT "Registr...', false)
+#4 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Registrodiario), Array)
+#5 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(1079): PaginatorComponent->paginate('Registrodiario', Array, Array)
+#8 /opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php(8): Controller->paginate('Registrodiario')
+#9 [internal function]: RegistrodiariosController->index()
+#10 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RegistrodiariosController), Array)
+#11 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RegistrodiariosController), Object(CakeRequest), Object(CakeResponse))
+#13 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-20 18:52:31 Error: [MissingControllerException] Controller class DiretorecontatosController could not be found.
+Exception Attributes: array (
+  'class' => 'DiretorecontatosController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Diretorecontatos/add/47/Z%C3%A9lia%20Martins
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 19:33:31 Error: [MissingControllerException] Controller class DiretorController could not be found.
+Exception Attributes: array (
+  'class' => 'DiretorController',
+  'plugin' => NULL,
+)
+Request URL: /cake/Diretor/add/1/Agrovila%20I
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-20 19:41:20 Error: [PDOException] SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "unique_escola"
+DETAIL:  Key (escola_id)=(23) already exists.
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 19:42:06 Error: [PDOException] SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "unique_escola"
+DETAIL:  Key (escola_id)=(23) already exists.
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 19:56:24 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 19:57:10 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 19:57:51 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 19:59:05 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 19:59:36 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:00:35 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:01:23 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:01:50 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:01:50 Error: Fatal Error (4): syntax error, unexpected '=' in [/opt/lampp/htdocs/cake/app/View/Errors/pdo_error.ctp, line 1]
+2013-12-20 20:01:50 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 1, Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 1, Array)
+#3 /opt/lampp/htdocs/cake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-20 20:02:04 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:02:21 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:02:58 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:04:32 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!<br>
+						Para atualizar acesse o perfil do diretor e clique em EDITAR
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:05:02 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!\n
+						Para atualizar acesse o perfil do diretor e clique em EDITAR
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:08:22 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!\n
+						Para atualizar acesse o perfil do diretor e clique em EDITAR
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:08:58 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!\n
+						Para atualizar acesse o perfil do diretor e clique em EDITAR
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:09:23 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!\n
+						Para atualizar acesse o perfil do diretor e clique em EDITAR
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:09:29 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!\n
+						Para atualizar acesse o perfil do diretor e clique em EDITAR
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:09:45 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:11:05 Error: [PDOException] SQLSTATE[42601]: Syntax error: 7 ERROR:  too many parameters specified for RAISE
+CONTEXT:  PL/pgSQL function sp_pode_novo_diretor() line 4 at RAISE
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:11:41 Error: [PDOException] SQLSTATE[42601]: Syntax error: 7 ERROR:  too many parameters specified for RAISE
+CONTEXT:  PL/pgSQL function sp_pode_novo_diretor() line 4 at RAISE
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:11:59 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:13:37 Error: [PDOException] SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "diretores_id_seq" does not exist
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/Database/Postgres.php(289): PDO->lastInsertId('diretores_id_se...')
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1005): Postgres->lastInsertId('diretores', 'id')
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#3 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#4 [internal function]: DiretoresController->add()
+#5 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#6 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#8 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2013-12-20 20:14:12 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:16:32 Error: [PDOException] SQLSTATE[23505]: Unique violation: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:17:19 Error: [PDOException] SQLSTATE[23505]: Unique violation: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:19:31 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:20:36 Error: [PDOException] SQLSTATE[P0001]: Raise exception: 7 ERROR:  ESTA ESCOLA JÁ POSSUI DIRETOR!
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-20 20:24:49 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  column "escola" of relation "diretores" does not exist
+LINE 1: update diretores set escola.id = NULL where escola_id = NEW....
+                             ^
+QUERY:  update diretores set escola.id = NULL where escola_id = NEW.escola_id
+CONTEXT:  PL/pgSQL function sp_pode_novo_diretor() line 4 at SQL statement
+Request URL: /cake/diretores/add
+Stack Trace:
+#0 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /opt/lampp/htdocs/cake/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /opt/lampp/htdocs/cake/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Diretore), Array, Array)
+#4 /opt/lampp/htdocs/cake/app/Controller/DiretoresController.php(16): Model->save(Array)
+#5 [internal function]: DiretoresController->add()
+#6 /opt/lampp/htdocs/cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DiretoresController), Array)
+#7 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/cake/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(DiretoresController), Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/cake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

@@ -1,8 +1,8 @@
 <?php
-    class Universitariocontato extends AppModel{
+    class Diretorecontato extends AppModel{
         
-        public  $name = "Universitariocontato";
-        public $belongsTo = array("Universitario");
+        public  $name = "Diretorecontato";
+        public $belongsTo = array("Diretore");
         public $sequence = 'public.contatos_id_seq';
     }
 /*

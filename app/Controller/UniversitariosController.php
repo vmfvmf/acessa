@@ -44,8 +44,6 @@
             if($id){
                 $universitario = $this->Universitario->read(null, $id);
                 $this->set(compact("universitario"));
-                self::getEscola();
-                self::getContatos();
                            //pr($universitario);exit(0);
             }
         }
@@ -56,7 +54,7 @@
         }
                 
        public function getContatos(){
-            $contatos = $this->Universitario->Universitariocontato->find('list',array('fields' => array( 'id', 'tipo','contato','descricao')));
+            $contatos = $this->Universitario->Pessoacontato->find('list',array('fields' => array( 'id', 'tipo','contato','descricao')));
             $this->set(compact('contatos'));
         }
     }
