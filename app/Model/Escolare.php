@@ -2,6 +2,7 @@
     class Escolare extends AppModel{
         
         public  $name = "Escolare";
+        public $actsAs = array('Containable');
         public $belongsTo = array('Escola');    
         public $sequence = 'public.pessoas_id_seq';
         

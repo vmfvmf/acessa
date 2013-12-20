@@ -2,6 +2,7 @@
     class Universitario extends AppModel{
         
         public $name = "Universitario";
+        public $actsAs = array('Containable');
         public $hasMany = array("Escola","Universitariocontato");
         public $sequence = 'public.pessoas_id_seq';
         //public $belongsTo = array("Pessoacontato");

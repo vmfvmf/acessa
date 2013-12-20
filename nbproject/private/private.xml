@@ -4,9 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/opt/lampp/htdocs/cake/app/View/Registrodiarios/index.ctp</file>
+            <file>file:/opt/lampp/htdocs/cake/app/View/Escolas/edit.ctp</file>
+            <file>file:/opt/lampp/htdocs/cake/app/View/Escolas/view.ctp</file>
             <file>file:/opt/lampp/htdocs/cake/app/View/Registrodiarios/historico.ctp</file>
-            <file>file:/opt/lampp/htdocs/cake/app/Model/Escolare.php</file>
-            <file>file:/opt/lampp/htdocs/cake/app/Controller/RegistrodiariosController.php</file>
+            <file>file:/opt/lampp/htdocs/cake/app/Model/Escola.php</file>
+            <file>file:/opt/lampp/htdocs/cake/app/View/Escolas/add.ctp</file>
+            <file>file:/opt/lampp/htdocs/cake/app/Controller/EscolasController.php</file>
         </group>
     </open-files>
 </project-private>

@@ -12,9 +12,14 @@ $this->start('sidebar');
 <?php $this->end(); ?>
 <h1>Detalhes Escola</h1>
 
-<h2><?=$escola['Escola']['nome']?></h2>
-<b>CIE </b> <?=$escola['Escola']['cie']?>
-<br/><b>Cidade </b> <?=$escola['Cidade']['nome']?>
+<h2><?=$escola['Escola']['nome'];?></h2>
+<b>CIE </b> <?=$escola['Escola']['cie'];?>
+<br/>
+<br/><b>Cidade </b> <?=$escola['Cidade']['nome'];?>
+<br/><b>Endereço </b> <?=$escola['Escola']['rua'].', '.$escola['Escola']['numero'];?>
+<br/><b>Bairro </b> <?=$escola['Escola']['bairro'];?>
+<br/><b>CEP </b> <?=$escola['Escola']['cep'];?>
+
 <br/>
 <br/>
 

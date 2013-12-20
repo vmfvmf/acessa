@@ -15,10 +15,10 @@
                 if($this->Escola->save($this->data)){
                     $this->Session->setFlash("Escola adicionada com sucesso");
                     $this->data = array();
-                    self::getCidades();
-                    self::getUniversitarios();
                 }
             }
+            self::getCidade();
+            self::getUniversitarios();
         }
         
         public function edit($id = null){
@@ -30,8 +30,8 @@
             }else{
                 $this->data = $this->Escola->read(null, $id);
             }
+            self::getCidade();
             self::getUniversitarios();
-            self::getCidades();
         }
         
         public function delete($id = null){
@@ -47,9 +47,6 @@
             if($id){
                 $escola = $this->Escola->read(null, $id);
                 $this->set(compact("escola"));
-                self::getEscolares();
-                self::getUniversitarios();
-                self::getCidades();
                 //pr($escola);exit(0);
             }
         }
@@ -63,12 +60,11 @@
             $universitarios = $this->Escola->Universitario->find('list',array('fields' => array( 'id', 'nome')));
             $this->set(compact('universitarios'));
         }
-        
-        public function getCidades(){
-            $cidades = $this->Escola->Cidade->find('list',array('fields' => array( 'id', 'nome')));
+     
+        public function getCidade(){
+            $cidades = $this->Escola->Cidade->find('list',array('fields'=>array('id','nome')));
             $this->set(compact('cidades'));
         }
-        
     }
 /*
  * To change this license header, choose License Headers in Project Properties.
